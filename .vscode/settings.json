@@ -1,6 +1,9 @@
 {
   "cSpell.words": [
     "pubspec",
-    "softyes"
-  ]
+    "softyes",
+    "softyesti",
+    "yaraui"
+  ],
+  "dart.flutterSdkPath": ".fvm/versions/3.44.4"
 }
