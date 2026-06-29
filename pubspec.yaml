@@ -15,6 +15,10 @@ dependencies:
   flutter:
     sdk: flutter
 
+  yaraui:
+    git:
+      ref: main
+      url: https://github.com/softyesti/yaraui
   turmalina_ui:
     git:
       ref: main

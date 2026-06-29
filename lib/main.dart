@@ -1,20 +1,22 @@
 import 'package:flutter/material.dart';
+import 'package:yaraui/yaraui.dart';
 
-void main() {
-  runApp(const MainApp());
-}
+Future<void> main() async => YaraUI.init(
+  app: const MainApp(),
+  window: const .new(title: 'Turmalina'),
+);
 
 /// Main widget.
 class MainApp extends StatelessWidget {
   /// Main widget.
   const MainApp({super.key});
 
-
-
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
+    return YaraApp(
+      debugShowCheckedModeBanner: false,
+      home: const Scaffold(
+        //backgroundColor: Colors.transparent,
         body: Center(
           child: Text('Hello World!'),
         ),
